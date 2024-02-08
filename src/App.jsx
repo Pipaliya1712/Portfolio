@@ -1,10 +1,17 @@
 import React from 'react'
-function App() {
+import Header from './component/Header/Header.jsx'
+import Footer from './component/Footer/Footer.jsx'
+import {Outlet} from 'react-router-dom'
+import './App.css'
+
+function Layout() {
   return (
     <>
-    <h1>hello world</h1>
+        <Header />
+        <Outlet />
+        <Footer />
     </>
   )
 }
 
-export default App
+export default Layout

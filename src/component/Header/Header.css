@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+}
+.jcc{
+    justify-content: center;
+}
+li{
+    list-style: none;
+    font-size: 11px;
+}
