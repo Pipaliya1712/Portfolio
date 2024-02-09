@@ -5,7 +5,7 @@ import './Header.css'
 function Header() {
   return (
     <header>
-        <nav className='pt-28 bg'>
+        <nav className='pt-28'>
             <div className="flex space flex jcb">
               <div className='p15 fs24 tcFFFFFF'>I'M PARTH PIPALIYA</div>
               <ul className="flex jcc ls">

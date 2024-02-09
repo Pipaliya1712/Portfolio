@@ -7,9 +7,11 @@ import './App.css'
 function Layout() {
   return (
     <>
-        <Header />
-        <Outlet />
-        <Footer />
+      <div className="bg">
+      <Header />
+      <Outlet />
+      <Footer />
+      </div>
     </>
   )
 }
