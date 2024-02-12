@@ -7,7 +7,7 @@ function Header() {
     <header>
         <nav className='pt-28'>
             <div className="flex space flex jcb">
-              <div className='p15 fs24 tcFFFFFF'>I'M PARTH PIPALIYA</div>
+              <div className='p15 navLogo tcFFFFFF'>I'M PARTH PIPALIYA</div>
               <ul className="flex jcc ls">
                   <li> <NavLink to="" className={({isActive}) => `p20 ${isActive? "tc00D6B4" : "tc999999 hc" } navlink`}> ABOUT </NavLink></li>
                   <li> <NavLink to="portfolio" className={({isActive}) => `p20 ${isActive? "tc00D6B4" : "tc999999 hc" } navlink`}> PORTFOLIO </NavLink></li>

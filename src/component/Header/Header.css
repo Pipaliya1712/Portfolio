@@ -36,7 +36,7 @@ li{
 .tc00D6B4{
     color: #00D6B4; 
 }
-.fs24{
+.navLogo{
     font-size: 24px;
     line-height: 30px;
     letter-spacing: 1px;
@@ -49,4 +49,7 @@ li{
 }
 .p15{
     padding: 15px;
+}
+.m15{
+    margin: 15px;
 }

@@ -1,0 +1,48 @@
+.Aboutcontainer{
+    width: 62.874%;
+    height: 641px;
+}
+.detel{
+    width: 50%;
+}
+svg {
+    width: 70px;
+    height: 70px;
+}
+.svg:hover{
+    fill: red;
+}
+.images{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    background-attachment: fixed;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition:bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .my{
+    left: 45% ;
+}
+.fs27{
+    font-size: 27px;
+}
+.fs50{
+    font-size: 50px;
+}
+.fs24{
+    font-size: 24px;
+}
+.fs16{
+    font-size: 16px;
+}
