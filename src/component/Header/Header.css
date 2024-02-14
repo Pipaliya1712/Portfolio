@@ -1,6 +1,12 @@
 .flex{
     display: flex;
 }
+.jcc{
+    justify-content: center;
+}
+.f-c{
+    flex-direction: column;
+}
 .jcb{
     justify-content: space-between;
 }

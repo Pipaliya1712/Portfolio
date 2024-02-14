@@ -46,3 +46,35 @@ svg {
 .fs16{
     font-size: 16px;
 }
+.gith{
+    display: none;
+}
+#gitw:hover .gith{
+    display: block;
+}
+#gitw:hover .git{
+    display: none;
+}
+.instah{
+    display: none;
+}
+#instaw:hover .instah{
+    display: block;
+    height: 25px;
+}
+#instaw:hover .insta{
+    display: none;
+}
+.linkh{
+    display: none;
+}
+#linkw:hover .linkh{
+    display: block;
+    height: 25px;
+}
+#linkw:hover .link{
+    display: none;
+}
+.svgSpace{
+    margin:20px 12px 30px 12px;
+}
